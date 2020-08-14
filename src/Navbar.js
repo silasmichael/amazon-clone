@@ -37,7 +37,7 @@ function Navbar() {
             <div className="navbar-options">
                 <Link to={!user &&"/login"} className="navbar-link">
                     <div onClick={login} className="navbar-options-signin">
-                <span id="hello">Hello!! {user.email}</span>
+                        <span id="hello">Hello!! {user.email}</span>
                         <span id="accounts">{user?'Sign Out':'Sign In'}</span>
                     </div>
                 </Link>
